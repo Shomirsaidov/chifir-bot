@@ -19,7 +19,7 @@ export default async function handler(req, res) {
         const chatId = message.chat.id;
 
         // TODO: fill these with real values later
-        const BOT_TOKEN = process.env.BOT_TOKEN;          // put your token in Vercel env
+        const BOT_TOKEN = '8414786040:AAFrMCdsKFZCn1z8BEZJe2BbA_IJ0n23LPY';          // put your token in Vercel env
         const MINI_APP_URL = process.env.MINI_APP_URL;    // URL of your Mini App
 
         const text = "Добро пожаловать в Uno8. Для заказа откройте приложение снизу:";
