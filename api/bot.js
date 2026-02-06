@@ -22,7 +22,7 @@ export default async function handler(req, res) {
         const BOT_TOKEN = process.env.BOT_TOKEN;          // put your token in Vercel env
         const MINI_APP_URL = process.env.MINI_APP_URL;    // URL of your Mini App
 
-        const text = "Добро пожаловать в Chifir. Для заказа откройте приложение снизу:";
+        const text = "Добро пожаловать в Uno8. Для заказа откройте приложение снизу:";
 
         // Inline keyboard button that opens a Web App (Mini App)
         const replyMarkup = {
