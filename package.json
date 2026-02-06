@@ -1,13 +1,11 @@
 {
-    "name": "telegram-mini-app-bot",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "dev": "vercel dev",
-        "deploy": "vercel --prod"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "vercel": "^39.0.0"
-    }
+  "name": "chifir-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
